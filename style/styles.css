@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+c* {
+  margin: 0;
+  padding: 0;
+}
+
+.azeret-mono-primary-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.btn-primary-font {
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+}
+
+.section-title {
+  /* color: #0d1321; */
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  /* font-style: normal; */
+  font-weight: 800;
+  /* line-height: normal; */
+}
+.section-subtitle {
+  width: 852px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+  margin-top: -37px;
+}
+
+/* header style */
+.nav-container .nav-items .nav-title {
+  list-style: none;
+  font-family: "Azeret Mono";
+  font-size: 28px;
+  font-weight: 800;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 130px;
+  /* background-color: red; */
+}
+.hero-section {
+  background-image: url("../assets/Hero-bg.png");
+  height: 652px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+}
+.banner {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 26px; */
+  width: 998px;
+  margin: 0 auto;
+}
+.banner img {
+  margin-top: 26px;
+}
+.banner h1 {
+  margin-top: 18px;
+  /* color: #0d1321; */
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 48px;
+  /* font-style: normal; */
+  font-weight: 800;
+  /* line-height: 68px; 141.667% */
+}
+.banner p {
+  width: 852px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-top: -37px;
+}
+
+.hero-btn {
+  width: 244px;
+  height: 65px;
+  padding: 20px 20px;
+  margin-top: -10px;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #fff;
+  background: #0d1321;
+  /* line-height: normal; */
+}
+
