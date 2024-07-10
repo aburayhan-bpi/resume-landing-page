@@ -54,7 +54,7 @@
   background: rgba(255, 223, 0, 0.05);
 }
 
-/* header style */
+/* main, header start here */
 main {
   margin-right: 150px;
   margin-left: 150px;
@@ -76,7 +76,6 @@ button {
   align-items: center;
   justify-content: space-between;
   padding: 38px 130px;
-  /* background-color: red; */
 }
 .hero-section {
   background-image: url("../assets/Hero-bg.png");
@@ -90,7 +89,6 @@ button {
   gap: 32px;
   flex-direction: column;
   align-items: center;
-  /* padding-top: 26px; */
   width: 998px;
   margin: 0 auto;
 }
@@ -100,13 +98,10 @@ button {
 .banner h1 {
   margin-top: 18px;
   margin-bottom: 22px;
-  /* color: #0d1321; */
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 48px;
-  /* font-style: normal; */
   font-weight: 800;
-  /* line-height: 68px; 141.667% */
 }
 .banner p {
   width: 852px;
@@ -134,10 +129,9 @@ button {
   border-radius: 8px;
   color: #fff;
   background: #0d1321;
-  /* line-height: normal; */
 }
 
-/* dev goal styles */
+/* why web development section start here */
 
 .dev-goal {
   display: flex;
@@ -180,6 +174,7 @@ button {
   font-size: 24px;
   font-weight: 700;
   max-width: 390px;
+  margin-bottom: 16px;
 }
 
 .goal-column p {
@@ -187,10 +182,8 @@ button {
   font-family: "Azeret Mono";
   font-size: 16px;
   text-align: left;
-  /* font-style: normal; */
   font-weight: 400;
   max-width: 468px;
-  /* line-height: 26px; */
   opacity: 0.7;
 }
 .goal-column button {
@@ -209,10 +202,8 @@ button {
 
 .goal-sub-container1 {
   max-width: 840px;
-  /* margin: 0 auto; */
   display: flex;
   gap: 40px;
-  /* justify-content: space-evenly; */
   justify-content: flex-start;
   padding: 48px;
   margin-top: 48px;
@@ -223,7 +214,7 @@ button {
   max-width: 470px;
 }
 
-/* Inspiration section style */
+/* inspiration section start here */
 
 .inspiration-container {
   display: flex;
@@ -231,12 +222,9 @@ button {
   justify-content: center;
   align-items: center;
   margin-bottom: -45px;
-  /* margin-bottom: 15px; */
-  /* background-color: green; */
 }
 .inspiration-container .section-title {
   margin-bottom: 60px;
-  /* background-color: red; */
 }
 
 .section-subtitle {
@@ -254,7 +242,7 @@ button {
   border-radius: 16px;
 }
 
-/* current target section style */
+/* current target section start here */
 
 .cur-target-container {
   display: flex;
@@ -309,7 +297,7 @@ button {
   text-decoration-line: underline;
 }
 
-/* next target section style */
+/* next target section start here */
 
 .targ-skill-container {
   display: flex;
@@ -322,7 +310,6 @@ button {
 
 .targ-skill-container .section-title {
   margin-bottom: 50px;
-  /* margin: 0 auto; */
 }
 
 .skill-box {
@@ -344,7 +331,6 @@ button {
 .targ-skill-item img {
   width: 105px;
   height: 70px;
-  /* margin-right: 20px; */
 }
 .skill-details {
   margin-left: 35px;
@@ -376,7 +362,7 @@ button {
   text-decoration-line: underline;
 }
 
-/* support section style */
+/* support section start here */
 
 .support-section {
   background-image: url(../assets/handshake.jpg);
@@ -440,9 +426,6 @@ button {
   font-size: 16px;
   font-weight: 400;
 }
-.form-input > a {
-  list-style: none;
-}
 
 .form-input button {
   width: 120px;
@@ -458,6 +441,8 @@ button {
   background: #fff;
 }
 
+/* footer start here */
+
 footer {
   display: flex;
   flex-direction: row;
@@ -472,14 +457,11 @@ footer h4 {
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 20px;
-  /* font-style: normal; */
   font-weight: 600;
-  /* line-height: normal; */
 }
 
 .icon-container {
   display: flex;
   gap: 24px;
   flex-direction: row;
-  /* justify-content: space-evenly; */
 }
