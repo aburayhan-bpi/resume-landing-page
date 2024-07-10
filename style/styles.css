@@ -124,7 +124,6 @@ c* {
 }
 
 /* dev goal styles */
-
 .dev-goal {
   padding: 70px 97px;
   border-radius: 16px;
@@ -203,4 +202,33 @@ c* {
 }
 .goal-column-extra h3 {
   max-width: 470px;
+}
+
+/* Inspiration section style */
+
+.inspiration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+.inspiration-container .section-title {
+  margin-bottom: 60px;
+  /* background-color: red; */
+}
+
+.section-subtitle {
+  margin-bottom: 30px;
+}
+.video-container {
+  padding: 20px;
+  margin-bottom: 151px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.video-container > iframe {
+  width: 980px;
+  height: 530px;
+  border-radius: 16px;
 }
