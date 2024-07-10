@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-c* {
+* {
   margin: 0;
   padding: 0;
 }
@@ -55,8 +55,7 @@ c* {
 }
 
 /* header style */
-main,
-footer {
+main {
   margin-right: 150px;
   margin-left: 150px;
 }
@@ -95,6 +94,7 @@ footer {
 }
 .banner h1 {
   margin-top: 18px;
+  margin-bottom: 22px;
   /* color: #0d1321; */
   text-align: center;
   font-family: "Azeret Mono";
@@ -153,6 +153,9 @@ footer {
   line-height: 26px;
   opacity: 0.7;
   max-width: 852px;
+}
+.dev-goal-container .section-title {
+  margin-bottom: 18px;
 }
 
 .goal-sub-container {
@@ -271,14 +274,14 @@ footer {
 }
 
 .skill-item img {
-  margin-bottom: -15px;
+  margin-bottom: 20px;
 }
 
 .skill-title {
   font-family: "Azeret Mono";
   font-size: 24px;
   font-weight: 800;
-  margin-bottom: -10px;
+  margin-bottom: 20px;
 }
 .skill-subtitle {
   color: #0d1321;
@@ -335,8 +338,8 @@ footer {
   align-items: center;
 }
 .targ-skill-item img {
-  width: 95px;
-  height: 80px;
+  width: 105px;
+  height: 70px;
 }
 .skill-details {
   margin-left: 24px;
@@ -444,4 +447,30 @@ footer {
   font-weight: 600;
   color: #0d1321;
   background: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 200px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+footer h4 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  /* font-style: normal; */
+  font-weight: 600;
+  /* line-height: normal; */
+}
+
+.icon-container {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
 }
