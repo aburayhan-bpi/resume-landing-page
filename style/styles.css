@@ -13,28 +13,22 @@ c* {
 
 /* shared style */
 
-
 .btn-primary-font {
   font-family: "Azeret Mono";
   font-size: 20px;
   font-weight: 600;
 }
-
 .btn-primary {
   padding: 17px 24px;
   border-radius: 8px;
   border: 1px solid #0d1321;
   opacity: 0.8;
 }
-
 .section-title {
-  /* color: #0d1321; */
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 32px;
-  /* font-style: normal; */
   font-weight: 800;
-  /* line-height: normal; */
 }
 .section-subtitle {
   width: 852px;
@@ -44,14 +38,28 @@ c* {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
   opacity: 0.7;
   margin-top: -37px;
 }
 
+/* skill section bg style */
+.bg-color1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.bg-color2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.bg-color3 {
+  background: rgba(255, 223, 0, 0.05);
+}
 
 /* header style */
-
+main,
+footer {
+  margin-right: 150px;
+  margin-left: 150px;
+}
 
 .nav-container .nav-items .nav-title {
   list-style: none;
@@ -125,9 +133,11 @@ c* {
 
 /* dev goal styles */
 .dev-goal {
+  display: flex;
+  flex-direction: column;
   padding: 70px 97px;
   border-radius: 16px;
-  margin: 74px 150px 74px 150px;
+  margin: 74px 0 74px 0px;
   /* background-color: rgba(13, 19, 33, 0.02); */
   /* border-radius: 16px; */
   background: rgba(13, 19, 33, 0.02);
@@ -211,6 +221,8 @@ c* {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: -45px;
+  /* margin-bottom: 15px; */
   /* background-color: green; */
 }
 .inspiration-container .section-title {
@@ -231,4 +243,127 @@ c* {
   width: 980px;
   height: 530px;
   border-radius: 16px;
+}
+
+/* current target section style */
+
+.cur-target-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 111px 0;
+}
+.cur-target-container .section-title {
+  margin-bottom: 60px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+  border-radius: 16px;
+}
+
+.skill-item {
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.skill-item img {
+  margin-bottom: -15px;
+}
+
+.skill-title {
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: -10px;
+}
+.skill-subtitle {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  max-width: 284px;
+  margin-bottom: 20px;
+}
+.skill-item > button {
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: "Azeret Mono";
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+/* next target section style */
+
+.targ-skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 50px;
+  max-width: 1120px;
+}
+
+.targ-skill-container .section-title {
+  margin-bottom: 50px;
+  /* margin: 0 auto; */
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.targ-skill-item {
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+
+.targ-skill-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.targ-skill-item img {
+  width: 95px;
+  height: 80px;
+}
+.skill-details {
+  margin-left: 24px;
+}
+.skill-details h4 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skill-details p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.skill-details > button {
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: "Azeret Mono";
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration-line: underline;
 }
