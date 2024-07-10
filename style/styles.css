@@ -367,3 +367,81 @@ footer {
   font-size: 16px;
   text-decoration-line: underline;
 }
+
+/* support section style */
+
+.support-section {
+  background-image: url(../assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 64px 48px;
+  border-radius: 16px;
+  margin: 0 auto 80px;
+  max-width: 1020px;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;
+}
+.support-container h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: -15px;
+  margin-bottom: 16px;
+}
+.support-container p {
+  max-width: 606px;
+  margin: 0 auto 24px;
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.form-input {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input input[type="text"] {
+  width: 500px;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.form-input input[type="text"]::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  text-align: left;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+}
+.form-input > button {
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d1321;
+  background: #fff;
+}
